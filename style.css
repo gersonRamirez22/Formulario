@@ -1,0 +1,131 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #ADD8E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.steps_elements{
+    background-color: #566DFF;
+    border-radius: 0.5rem;
+    padding: 8px;
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+}
+
+.step_item{
+    display: flex;
+    gap: 1rem;
+}
+/* BEM */
+.steps_number{
+    border-radius: 100%;
+    width: 2rem;
+    height: 2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.step_number_active{
+    background-color: #ADD8E6;
+    color: black;
+}
+
+.step_number_bordered{
+    border: 1px solid white;
+}
+
+
+.step_description{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.step_title{
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.step_number_description{
+    font-size: 0.8rem;
+    color: rgb(172, 172, 172);
+}
+
+
+.forms{
+    display:flex ;
+    flex-direction: column;
+    margin: 3rem;
+    color: #0e205c;
+}
+
+.forms__text{
+margin-bottom: 2rem;
+
+}
+
+.forms__text-title{
+    font-size: 1.5rem;
+}
+
+.forms__text-paragraph{
+color: rgb(100, 100, 100);
+font-size: 0.8rem;
+}
+
+.forms__input{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+
+.forms__input-element{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.forms__label{
+    font-size: 15px;
+}
+
+.forms__input-caja{
+    border-radius: 7px;
+    padding: 10px;
+    border: solid 1.5px #dddfe2;
+    font-size: 14px;
+}
+
+.button{
+color: white;
+padding: 8px ;
+font-size: 15px;
+border: none;
+background-color: #0e205c;
+border-radius: 8px;
+height: 50px;
+width: 100px;
+margin-top: 50px;
+
+}
