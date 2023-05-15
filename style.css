@@ -119,13 +119,18 @@ font-size: 0.8rem;
 
 .button{
 color: white;
-padding: 8px ;
 font-size: 15px;
 border: none;
 background-color: #0e205c;
 border-radius: 8px;
-height: 50px;
+height: 38px;
 width: 100px;
-margin-top: 50px;
 
+
+}
+.container_button{
+    margin-top: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
